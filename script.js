@@ -80,7 +80,7 @@ function makeHarder() {
     noBtn.style.transform = `scale(${noScale})`;
 
     // C. Make No button FASTER
-    moveSpeed = moveSpeed * 0.95; // Speed up by 5%
+    moveSpeed = moveSpeed * 0.70; // Speed up by 30%
     noBtn.style.transition = `all ${moveSpeed}s ease`;
 }
 
