@@ -39,7 +39,7 @@ let yesFontSize = 1.5;
 let noScale = 1;
 let gifIndex = 0; 
 let messageIndex = 0;
-let moveSpeed = 1; // Start speed 
+let moveSpeed = 3; // Start speed 
 
 // Set initial transition in JS so we can update it later
 noBtn.style.transition = `all ${moveSpeed}s ease`;
